@@ -39,3 +39,9 @@ a{
 h5{
   text-decoration: underline;
 }
+a i:hover{
+color:black;
+}
+a i{
+  font-size:40px; 
+}
