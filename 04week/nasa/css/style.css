@@ -1,0 +1,31 @@
+body {
+  width: 850px;
+  margin: 0 auto;
+}
+
+main {
+  background-image: url("../img/nasa-background.jpg");
+  width: 850px;
+  height: 450px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.space-box {
+  justify-content: center;
+  color: white;
+  font-size: 59px;}
+
+  h1 {
+    width: 100%;
+    align-self: center;
+  }
+  .flex {
+    width: 850px;
+    height: 400px;
+    background: lightgray;
+    display: flex;
+    justify-content: space-around;
+  }
