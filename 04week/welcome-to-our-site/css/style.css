@@ -27,16 +27,23 @@ main {
   background-color: #33A8DD;
   height: 45px;
   width: 33%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .orange-box {
   background-color: #F46731;
   height: 45px;
-  width: 34%
+  width: 34%;
+  margin-top:50px;
 }
 
 .teal-box {
   background-color: #2BCDC0;
   height: 45px;
-  width: 33%
+  width: 33%;
+  margin-top:50px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
