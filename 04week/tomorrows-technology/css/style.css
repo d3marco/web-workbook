@@ -1,8 +1,9 @@
 body{
   border: 1px black solid;
+  @media (min-width: 768px){
+
+  }
 }
-
-
 main{
   display: flex;
   justify-content: flex-start;
@@ -38,4 +39,7 @@ section{
 button{
   background:#4D4D4D;
   color: white;
+}
+@@media query {
+
 }
