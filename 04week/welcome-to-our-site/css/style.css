@@ -1,0 +1,49 @@
+body {
+  color: white;
+  text-align: center;
+}
+
+main {
+  width: 850px;
+  height: 450px;
+  background: #2BCDC0;
+  width: 100%;
+  height: 0 auto;
+  color: white;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  height: 320px;
+  background: black;
+}
+
+.blue-box {
+  background-color: #33A8DD;
+  height: 45px;
+  width: 33%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.orange-box {
+  background-color: #F46731;
+  height: 45px;
+  width: 34%;
+  margin-top:50px;
+}
+
+.teal-box {
+  background-color: #2BCDC0;
+  height: 45px;
+  width: 33%;
+  margin-top:50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
