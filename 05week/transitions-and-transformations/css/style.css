@@ -1,0 +1,77 @@
+body {
+  background-color: lightgray;
+}
+
+.trigger {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-1 {
+  background-color: #8BC34A;
+}
+
+.box-2 {
+  background-color: darkkhaki;
+}
+
+.box-3 {
+  background-color: blanchedalmond;
+}
+
+.box-4 {
+  background-color: aquamarine;
+}
+
+.box-5 {
+  background-color: #CDDC39;
+}
+
+.box-6 {
+  background-color: tan;
+}
+
+.box-7 {
+  background-color: darkcyan;
+}
+
+.box-8 {
+  background-color: cadetblue;
+}
+
+.box-9 {
+  background-color: coral;
+}
+
+.box-10 {
+  background-color: darkgray;
+}
+
+.box-11 {
+  background-color: blue;
+}
+
+.box-12 {
+  background-color: aquamarine;
+}
+
+.box {
+  transition: all 2s ease-in-out;
+  width: 100px;
+  height: 100px;
+}
+
+.trigger:hover :nth-child(odd) {
+  transform: translate(200px, 0) rotate(3turn);
+  width: 200px;
+  height: 200px;
+}
+
+.trigger:hover :nth-child(even) {
+  transform: translate(-200px, 0) rotate(-3turn);
+  width: 50px;
+  height: 50px;
+}
