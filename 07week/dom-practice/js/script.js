@@ -1,5 +1,5 @@
 'use strict';
 
 document.addEventListener("DOMContentLoaded", function(event) {
-  // You code here
+window.alert("there are 5 list items!");
 });
