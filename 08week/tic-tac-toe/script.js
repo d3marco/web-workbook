@@ -6,16 +6,11 @@ $(document).ready(function() {
   $('[data-cell]').on('click', function() {
     if ($(this).text() === '') {
       $(this).text(turn);
-      if(turn === 'X') {
+      if (turn === 'X') {
         turn = 'O';
-      }else{
+      } else {
         turn = 'X';
       }
     }
-    winner('');
   })
 });
-
-function winner(''){
-if('[data-cell="0"]').text( === 'X')
-];
